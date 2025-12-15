@@ -210,7 +210,8 @@ a {
 /* #region our team */
 .team {
   background-color: #f4f4fd;
-}
+} 
+
 .our-team-section{
   padding: 120px 0 120px;
 }
@@ -278,7 +279,6 @@ a {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-
 
 .portfolio-list {
   display: flex;
