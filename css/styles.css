@@ -50,11 +50,11 @@ a {
 /* #region header */
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header > .container {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -86,6 +86,8 @@ a {
 }
 
 .nav-list-link {
+  display: block;
+  padding: 24px 0;
   color: #2e2f42;
   font-family: "Roboto";
   font-weight: 500;
@@ -145,7 +147,7 @@ a {
   display: block;
   margin: 0 auto;
   min-width: 169px;
-  border: 1px solid transparent;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -210,10 +212,10 @@ a {
 /* #region our team */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-section {
-  padding: 120px 0;
 }
 .our-team {
   margin-bottom: 72px;
@@ -236,10 +238,6 @@ a {
   padding: 32px 0 32px;
 }
 
-.portfolio-section {
-  padding: 120px 0 120px;
-}
-
 .team-member {
   margin-bottom: 8px;
   text-align: center;
@@ -256,9 +254,8 @@ a {
   letter-spacing: 0.02em;
 }
 .team-background {
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
 }
 
@@ -267,12 +264,10 @@ a {
 /* #region portfolio*/
 .portfolio {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
-.portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 
 .our-portfolio {
   margin-bottom: 72px;
